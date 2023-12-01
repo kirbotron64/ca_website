@@ -1,6 +1,7 @@
 #header_container{
     display: flex;
     max-width: 1200px;
+    overflow: hidden;
 }
 
 #nav_container {
@@ -21,7 +22,8 @@
 }
 
 #header_pic {
-    width: 1200px;
+    max-width: 1200px;
+    flex-basis: 1;
     object-fit: cover;
 }
 
