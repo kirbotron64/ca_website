@@ -27,22 +27,22 @@
     object-fit: cover;
 }
 
-header h1{
+header h2{
     font-size: 24pt;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     position:absolute;
-    top: 284px;
-    left: 10px;
+    top: 279px;
+    left: 15px;
 }
 
-header h2 {
+header h1 {
     font-size: 60pt;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     position:absolute;
-    top: 258px;
+    top: 271px;
     left: 10px;
 }
 
@@ -68,15 +68,14 @@ a:visited {
 
 aside {
     flex-basis: 24%;
-    border: 3px solid tan;
     border-radius: 5%;
 }
 aside p{
-    padding: 8%;
     font-family: sans-serif;
-    color: rgb(70, 37, 4)
+    color: rgb(70, 37, 4);
+    text-align: center;
 }
-ul li{
+ul li, ol li{
     color: rgb(203, 43, 64);
 }
 .one {
@@ -96,6 +95,19 @@ ul li{
     padding-top: 1%;
     padding-bottom: 1%;
     padding-right: 1%;
+}
+
+table {
+    background-color: rgb(251, 239, 223);
+    border: 2px solid grey;
+    margin-left: 8%;
+}
+
+td, th {
+    border: 2px solid tan;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 footer {
     color: grey;
