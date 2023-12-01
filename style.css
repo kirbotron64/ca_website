@@ -66,6 +66,12 @@ a:visited {
     color: purple;
 }
 
+.two a:link {
+    color: black;
+    text-decoration: underline;
+    font-family: serif;
+}
+
 aside {
     flex-basis: 24%;
     border-radius: 5%;
