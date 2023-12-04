@@ -125,6 +125,59 @@ form {
     margin-left: 10%;
 }
 
+label {
+    width: 100px;
+    margin: 5px;
+    text-align: right;
+    display: inline-block;
+}
+
+input[type=text], input[type=email], select{
+    box-sizing: border-box;
+    width: 220px;
+    padding: 5px;
+    border: 1px solid goldenrod;
+}
+#comments {
+    vertical-align: top;
+}
+
+input[type=submit] {
+    background-color: goldenrod;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 17%;
+}
+
+textarea {
+    border: 1px solid goldenrod;
+    margin-top: 2px;
+}
+
+.sources {
+    margin-left: 4%;
+}
+
+.sources p{
+    color: rgb(101, 100, 100);
+    padding: 0% 4%;
+    margin: 1%;
+    font-size: 10pt;
+}
+.sources p a {
+    color: rgb(101, 100, 100);
+    font-family: serif;
+}
+.sources_city p{
+    color: rgb(101, 100, 100);
+    font-size: 10pt;
+}
+.sources_city p a {
+    color: rgb(101, 100, 100);
+    font-family: serif;
+}
+
 footer {
     color: grey;
     font-family: Georgia, 'Times New Roman', Times, serif;
