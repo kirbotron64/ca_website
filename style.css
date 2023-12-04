@@ -168,17 +168,24 @@ textarea {
     margin: 1%;
     font-size: 10pt;
 }
+
 .sources p a {
     color: rgb(101, 100, 100);
     font-family: serif;
 }
+
 .sources_city p{
     color: rgb(101, 100, 100);
     font-size: 10pt;
 }
+
 .sources_city p a {
     color: rgb(101, 100, 100);
     font-family: serif;
+}
+
+#email2 {
+    background-color: white;
 }
 
 footer {

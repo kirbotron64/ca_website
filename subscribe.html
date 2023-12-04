@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subscribe</title>
     <link rel="stylesheet" href="style.css">
+    <script src="email_check.js" defer></script>
 </head>
 <body>
         <header>
@@ -47,22 +48,26 @@
                     </h3>
                     <div>
                         <label for="firstName">First Name:</label>
-                        <input type="text" id="firstName">
+                        <input type="text" id="firstName" placeholder="First Name">
                     </div>
                     <div>
                         <label for="lastName">Last Name:</label>
-                        <input type="text" id="lastName">
+                        <input type="text" id="lastName" placeholder="Last Name">
                     </div>
                     <div>
-                        <label for="email">Email Address:</label>
-                        <input type="email" id="email">
+                        <label for="email" id="email1">Email Address:</label>
+                        <input type="email" id="email" placeholder="Email Address">
+                    </div>
+                    <div>
+                        <label for="email" id="email2">Confirm Email Address:</label>
+                        <input type="email" id="email" placeholder="Confirm Email Address">
                     </div>
                     <div>
                         <label for="comments" id="comments">Comments:</label>
-                        <textarea cols="25" rows="4" id="comments"></textarea>
+                        <textarea cols="25" rows="4" id="comments" placeholder="Comments, questions, concerns"></textarea>
                     </div>
                     <div>
-                        <input type="submit" value="Register">
+                        <input type="submit" onclick="compareEmails();" value="Register">
                     </div>
                 </form>
             </section>
