@@ -126,7 +126,7 @@ form {
 }
 
 label {
-    width: 100px;
+    width: 160px;
     margin: 5px;
     text-align: right;
     display: inline-block;
@@ -153,6 +153,9 @@ input[type=submit] {
 textarea {
     border: 1px solid goldenrod;
     margin-top: 2px;
+    font-family: sans-serif;
+    padding: 5px;
+    width: 209px;
 }
 
 .sources {
