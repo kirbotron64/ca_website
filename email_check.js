@@ -8,6 +8,7 @@ function compareEmails() {
     }
     else {
         alert("Emails do not match!");
+        return false;
     }
 }
 
